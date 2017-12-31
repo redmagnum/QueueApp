@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.queueapp.CategoryActivity">
+
+    <ImageView
+        android:layout_width="212dp"
+        android:layout_height="62dp"
+        android:src="@drawable/a"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/gojek"
+        android:layout_marginTop="10dp"
+        android:onClick="goProfile"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET IN LINE"
+        android:textSize="24sp"
+        android:layout_below="@id/gojek"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/tvPick"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_below="@id/tvPick"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvNama"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNama"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="99dp"
+                    android:src="@drawable/zjantung"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:id="@+id/jantung"
+                    android:background="#fff"
+                    android:onClick="goJantung"
+                    />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="99dp"
+                    android:src="@drawable/zanak"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:id="@+id/anak"
+                    android:background="#fff"
+                    android:onClick="goAnak"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/tvJantung"
+                    android:text="JANTUNG"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/tvAnak"
+                    android:text="ANAK"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="99dp"
+                    android:src="@drawable/zgigi"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:id="@+id/gigi"
+                    android:background="#fff"
+                    android:onClick="goGigi"
+                    />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="99dp"
+                    android:src="@drawable/zmata"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:id="@+id/mata"
+                    android:background="#fff"
+                    android:onClick="goMata"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/tvGigi"
+                    android:text="GIGI"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/tvMata"
+                    android:text="MATA"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="99dp"
+                    android:src="@drawable/ztht"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:id="@+id/tht"
+                    android:background="#fff"
+                    android:onClick="goTht"
+                    />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="99dp"
+                    android:src="@drawable/zumum"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:id="@+id/umum"
+                    android:background="#fff"
+                    android:onClick="goUmum"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/tvTht"
+                    android:text="THT"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/tvUmum"
+                    android:text="UMUM"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="99dp"
+                    android:src="@drawable/zkandungan"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:id="@+id/kangungan"
+                    android:background="#fff"
+                    android:onClick="goKandungan"
+                    />
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="99dp"
+                    android:src="@drawable/zsaraf"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:id="@+id/saraf"
+                    android:background="#fff"
+                    android:onClick="goSaraf"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/tvKandungan"
+                    android:text="KANDUNGAN"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/tvSaraf"
+                    android:text="SARAF"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

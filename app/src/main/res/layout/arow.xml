@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="75dp"
+        android:id="@+id/nomor"
+        android:textSize="30dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/nomor"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:id="@+id/pengirim"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Benar-benar malam yang indah ya"
+        android:textSize="16dp"
+        android:layout_below="@+id/pengirim"
+        android:layout_toRightOf="@+id/nomor"
+        android:layout_marginTop="10px"
+        android:id="@+id/konten"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 Nov 2017"
+        android:textSize="14dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tgl"/>
+
+
+
+</RelativeLayout>
